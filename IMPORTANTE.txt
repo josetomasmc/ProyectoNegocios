@@ -1,0 +1,19 @@
+****** LEER *****
+
+
+Dado que el archivo con la base de datos vectorizada supera el límite de 25 mb en Github,
+no pude subir el archivo al repositorio... entonces hay dos opciones:
+
+1) Una vez descargado todo el proyecto en una carpeta, ejecutar el archivo "Vector_embeddings.ipynb"
+Que crea completamente el arhivo faltante de la BB.DD vectorizada con el encoder de SBERT.
+La desventaja es que se demora más de 30 mins. aprox.
+
+
+2) Descargar el archivo "perfume_embeddings.npy" que falta desde el link:
+
+https://drive.google.com/drive/folders/1Xv1SIdjj06NYI0VKMAT8JjTvmUO9TWlg?usp=sharing
+
+Y pegarlo en la carpeta junto a todo el resto del proyecto.
+
+Luego de eso, en el archivo "motor_busqueda_embeddings.ipynb" se pueden cargar las consultas en las
+respectivas Queries.
